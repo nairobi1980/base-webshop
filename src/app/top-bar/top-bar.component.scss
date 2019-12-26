@@ -1,0 +1,36 @@
+@import '../../variables.scss';
+
+header {
+  background: #fff;
+  color: $secondary-font-color;
+  box-shadow: 2px 2px 3px #ccc;
+  .row{
+    justify-content: space-between;
+    align-items: center;
+  }
+  a{
+    text-decoration: none;
+    color: #5E1224;
+  }
+  .to-checkout{
+    position: relative;
+    span{
+      position: absolute;
+    top: -10px;
+    left: 12px;
+    background: #fff;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    border: 1px solid $secondary-font-color;
+    text-align: center;
+    line-height: 20px;
+    }
+  }
+}
+
+/*
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at http://angular.io/license
+*/

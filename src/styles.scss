@@ -1,0 +1,9 @@
+/* Global Styles */
+@import '~bootstrap/scss/bootstrap-grid';
+@import './variables.scss';
+
+
+body{
+  color: $primary-font-color;
+  font-family: Arial, Helvetica, sans-serif;
+}
