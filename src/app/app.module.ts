@@ -15,7 +15,8 @@ import { ShippingComponent } from './shipping/shipping.component';
 import { MainPageComponent } from './main-page/main-page.component';
 
 import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
-import { InMemoryDataService }  from './in-memory-data.service';
+import { InMemoryDataService } from './in-memory-data.service';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   imports: [
@@ -31,7 +32,8 @@ import { InMemoryDataService }  from './in-memory-data.service';
     ]),
     HttpClientInMemoryWebApiModule.forRoot(
       InMemoryDataService, { dataEncapsulation: false }
-    )
+    ),
+    FormsModule
   ],
   declarations: [
     AppComponent,

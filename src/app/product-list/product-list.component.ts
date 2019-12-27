@@ -10,9 +10,18 @@ import { ProductService } from '../product.service';
   templateUrl: './product-list.component.html',
   styleUrls: ['./product-list.component.scss']
 })
-export class ProductListComponent implements OnInit{
+export class ProductListComponent implements OnInit {
   products: Product[];
   filteredProducts: [];
+
+  type = 'all';
+
+  public options = [
+    {value: 'all', id: 'All  '},
+    {value: 'red', id: 'Red'},
+    {value: 'white', id: 'White'},
+    {value: 'rose', id: 'Rose'}
+  ];
 
   constructor(private productService: ProductService){
 
@@ -20,7 +29,6 @@ export class ProductListComponent implements OnInit{
 
   ngOnInit(){
     this.getProducts();
-
   }
 
   getProducts(){

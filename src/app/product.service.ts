@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { HttpClient, HttpHeaders } from '@angular/common/http';
+import { HttpClient, HttpHeaders, HttpParams } from '@angular/common/http';
 import { MessageService } from './message.service';
 import { Observable, of } from 'rxjs';
 import { Product } from './product'
@@ -20,5 +20,9 @@ export class ProductService {
 
       getProducts(): Observable<Product[]> {
         return this.http.get<Product[]>(this.productsUrl);
+      }
+
+      getProduct(id: string): Observable<any> {
+        return this.http.get<Product[]>(this.productsUrl + '/' + id);
       }
 }

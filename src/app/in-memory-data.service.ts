@@ -9,7 +9,7 @@ export class InMemoryDataService implements InMemoryDbService {
   createDb() {
     const products = [
       {
-        id: 11,
+        id: 0,
         price: 1310,
         name: 'HEUMANN KEKFRANKOS 2015',
         description: 'Szárez, fehér, fahordós.',
@@ -17,7 +17,7 @@ export class InMemoryDataService implements InMemoryDbService {
         type: "white"
       },
       {
-        id: 11,
+        id: 1,
         price: 1310,
         name: 'Pajzos-Megyer Chateau Megyer Tokaji Furmint 2016 (0,75l)',
         description: 'Szárez, fehér, fahordós.',
@@ -25,7 +25,7 @@ export class InMemoryDataService implements InMemoryDbService {
         type: "red"
       },
       {
-        id: 11,
+        id: 2,
         price: 1310,
         name: 'Pajzos-Megyer Chateau Megyer Tokaji Furmint 2016 (0,75l)',
         description: 'Szárez, fehér, fahordós.',
@@ -34,7 +34,7 @@ export class InMemoryDataService implements InMemoryDbService {
       },
 
       {
-        id: 11,
+        id: 3,
         price: 1310,
         name: 'Pajzos-Megyer Chateau Megyer Tokaji Furmint 2016 (0,75l)',
         description: 'Szárez, fehér, fahordós.',
@@ -42,7 +42,7 @@ export class InMemoryDataService implements InMemoryDbService {
         type: "red"
       },
       {
-        id: 11,
+        id: 4,
         price: 1310,
         name: 'Pajzos-Megyer Chateau Megyer Tokaji Furmint 2016 (0,75l)',
         description: 'Szárez, fehér, fahordós.',
@@ -50,7 +50,7 @@ export class InMemoryDataService implements InMemoryDbService {
         type: "rose"
       },
       {
-        id: 11,
+        id: 5,
         price: 1310,
         name: 'HEUMANN KEKFRANKOS 2015',
         description: 'Szárez, fehér, fahordós.',
@@ -58,7 +58,7 @@ export class InMemoryDataService implements InMemoryDbService {
         type: "white"
       },
       {
-        id: 11,
+        id: 6,
         price: 1310,
         name: 'Pajzos-Megyer Chateau Megyer Tokaji Furmint 2016 (0,75l)',
         description: 'Szárez, fehér, fahordós.',
@@ -67,7 +67,7 @@ export class InMemoryDataService implements InMemoryDbService {
       },
 
       {
-        id: 11,
+        id: 7,
         price: 1310,
         name: 'HEUMANN KEKFRANKOS 2015',
         description: 'Szárez, fehér, fahordós.',
@@ -75,7 +75,7 @@ export class InMemoryDataService implements InMemoryDbService {
         type: "white"
       },
       {
-        id: 11,
+        id: 8,
         price: 1310,
         name: 'Pajzos-Megyer Chateau Megyer Tokaji Furmint 2016 (0,75l)',
         description: 'Szárez, fehér, fahordós.',
@@ -83,7 +83,7 @@ export class InMemoryDataService implements InMemoryDbService {
         type: "red"
       },
       {
-        id: 11,
+        id: 9,
         price: 1310,
         name: 'Pajzos-Megyer Chateau Megyer Tokaji Furmint 2016 (0,75l)',
         description: 'Szárez, fehér, fahordós.',
@@ -91,7 +91,7 @@ export class InMemoryDataService implements InMemoryDbService {
         type: "rose"
       },
       {
-        id: 11,
+        id: 10,
         price: 1310,
         name: 'HEUMANN KEKFRANKOS 2015',
         description: 'Szárez, fehér, fahordós.',
@@ -107,7 +107,7 @@ export class InMemoryDataService implements InMemoryDbService {
         type: "red"
       },
       {
-        id: 11,
+        id: 12,
         price: 1310,
         name: 'Pajzos-Megyer Chateau Megyer Tokaji Furmint 2016 (0,75l)',
         description: 'Szárez, fehér, fahordós.',
@@ -115,7 +115,7 @@ export class InMemoryDataService implements InMemoryDbService {
         type: "rose"
       },
       {
-        id: 11,
+        id: 13,
         price: 1310,
         name: 'HEUMANN KEKFRANKOS 2015',
         description: 'Szárez, fehér, fahordós.',
@@ -123,7 +123,7 @@ export class InMemoryDataService implements InMemoryDbService {
         type: "white"
       },
       {
-        id: 11,
+        id: 14,
         price: 1310,
         name: 'Pajzos-Megyer Chateau Megyer Tokaji Furmint 2016 (0,75l)',
         description: 'Szárez, fehér, fahordós.',
@@ -131,7 +131,7 @@ export class InMemoryDataService implements InMemoryDbService {
         type: "red"
       },
       {
-        id: 11,
+        id: 15,
         price: 1310,
         name: 'Pajzos-Megyer Chateau Megyer Tokaji Furmint 2016 (0,75l)',
         description: 'Szárez, fehér, fahordós.',
